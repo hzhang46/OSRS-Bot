@@ -1,9 +1,10 @@
 import discord
 from Highscores import get_total_xp
+import config
 
 client = discord.Client()
 
-TOKEN = "ODI4Nzc3MDEzNDAxNzQ3NDk2.YGugvQ.2xWN71XnE9xe9Uxh4HqcUHzdZcA"
+TOKEN = config.TOKEN
 
 @client.event
 async def on_ready():
